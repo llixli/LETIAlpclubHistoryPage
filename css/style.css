@@ -2,9 +2,94 @@
 
 
 body {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 h1 {
 	font-family: 'Cantarell', sans-serif;
 }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align:center;
+
+}
+
+ul.topnav li{
+	display: inline-block;
+	border-right: 1px solid #000;
+}
+
+
+ul.topnav > li:last-child{
+   border: none;
+}
+
+
+ul.topnav li a{
+    color: #808080;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.8em !important;
+}
+
+ul.topnav li a:hover {
+	background-color: #ffffff;
+    color: #000000;
+}
+
+
+ul.topnav li a.active {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 600px){
+    ul.topnav, 
+    ul.topnav li {float: none;}
+}
+
+/*
+.navbar {
+	 background-color: #ffffff;
+	 border: none;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .navbar-default .navbar-nav {
+    	background-color: #000000;
+    }
+}
+*/
