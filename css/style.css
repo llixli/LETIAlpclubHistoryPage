@@ -8,7 +8,6 @@ body {
 }
 
 
-
 ul.topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -44,6 +43,31 @@ div.gallery-image img {
   height: auto;
 }
 
+.contactForm {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.descriptionText {
+    display: inline-block;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    width: 100%;
+    margin: 0 0 30px -13px;
+    resize: none;
+}
+
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
 
 * {
     box-sizing: border-box;
